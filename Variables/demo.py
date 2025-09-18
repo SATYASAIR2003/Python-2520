@@ -15,3 +15,15 @@
 data=3.92
 data=int(data)
 print(data)
+
+# Tricky questions
+# 1 Exchange the value 
+a=3
+b=4
+t=a
+a=b
+b=t
+print(a)
+print(b)
+a, b= b, a
+print(a, b)
