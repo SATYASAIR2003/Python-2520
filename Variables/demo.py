@@ -27,3 +27,14 @@ print(a)
 print(b)
 a, b= b, a
 print(a, b)
+
+# Swap two numbers without using a third variable
+ab=5
+cd=10
+ab=ab+cd
+cd=ab-cd
+ab=ab-cd
+print(ab)
+print(cd)
+
+# Find a number is even or odd without using % or /
