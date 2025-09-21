@@ -3,31 +3,29 @@ Student_Name=input("Enter your Name: ")
 Attendance=int(input("Enter your Attendance: "))
 
 # Ask Student To Enter Score / Marks
-count=1
-marks={}
+count = 1
+total_score = 0
+Yes="yes"
+
 while True:
-    Score = (input("Do you want give Score(yes/no): "))
-    if Score == "yes":
-        Marks= int((input("Enter your Marks: ")))
-        marks[f"Marks{count}"]=Marks
-        count+=1
+    Score = input("Do you want to give Score (yes/no): ")
+    
+    if Score == Yes:
+        Marks = int(input(f"Enter your Marks {count}: "))
+        total_score += Marks
+        count += 1
     else:
-        print(marks)
+        print("Number of scores entered:", count - 1)
         break
 
-# Give me the number of scores
-values=list(marks.values())
-num=len(values)
-print(num)
-
-# Calculate Total Score (Score 1 + Score 2 + .... + Score N )
-Total=0
-for n in values:
-    Total = Total+n 
+num=count-1
 
 # Give me the Average score
-average=Total/num
-print("Total Marks: ", Total)
+average=total_score/num
+print(f"Id: {Student_Id}")
+print(f"Name: {Student_Name}")
+print(f"Attendance: {Attendance}")
+print("Total Marks: ", total_score)
 print("Average Marks: ", average)
 
 # Based On Average Score, Grade the Student
@@ -52,5 +50,3 @@ if(Attendance>=75 and average>=85 ):
     print("Eligible for Award")
 else:
     print("Not Eligible for Award")
-
-    
