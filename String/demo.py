@@ -46,29 +46,38 @@
 #     #     print("Charcters should be more the three")
 #     break
 
-student_name=input("Enter name: ")
-    # caps=student_name.isalpha()
-    # if not caps:
-    #     print("Only alphabets")
-    #     continue
-spaces=student_name.strip()
-print(spaces)
+# student_name=input("Enter name: ")
+#     # caps=student_name.isalpha()
+#     # if not caps:
+#     #     print("Only alphabets")
+#     #     continue
+# spaces=student_name.strip()
+# print(spaces)
 
-student_name=input("Enter name: ")
-names=student_name.split()
-print(names)
+# student_name=input("Enter name: ")
+# names=student_name.split()
+# print(names)
 
-student_name=int(input("Enter name: "))
+# student_name=int(input("Enter name: "))
 
-count=sum(len(student_name) )
-print(count)
+# count=sum(len(student_name) )
+# print(count)
 
-student_name=input("Enter name: ")
-formated_name=" ".join(names).title()
-print(formated_name)
+# student_name=input("Enter name: ")
+# formated_name=" ".join(names).title()
+# print(formated_name)
 
+# # WAP to input the first name and find the length
+# user = input("Enter your first name: ")
+# print(user)
+# print(len(user))
 
-
+# WAP to check a number is a multiple of 7
+a = int(input("Enter a number: "))
+if a%7==0:
+    print("Divisible by 7")
+else:
+    print("Not")
 
 
 
