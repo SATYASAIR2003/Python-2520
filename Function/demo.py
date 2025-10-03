@@ -46,7 +46,21 @@ def sum(*num):
 sum(2,5,3,5,2)
 
 # Arbitrary keyword based arguments
+def info(**empl):
+    print(empl)
 
+info(name="Sai", rollno="21")
+
+def trans(**mytrans):
+    print(mytrans)
+    # total=0
+    for my in mytrans:
+        print(mytrans[my])
+        # total = total +mytrans[my]
+        # print(total)
+
+trans(jan=2000, feb=1000)
+    
 
 
 
