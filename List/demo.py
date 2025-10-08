@@ -28,6 +28,7 @@ marks.pop(6)
 print(marks)
 
 
+
 """
 1. lists are mutable
 2. Indexing is applicable in lists
@@ -42,3 +43,31 @@ print(marks)
     sort()
     etcc
 """
+
+# WAP to ask the user to give his three favorate movies and the output should be in list
+movie1= input("Enter movie 1: ")
+movie2= input("Enter movie 2: ")
+movie3= input("Enter movie 3: ")
+movies=[]
+movies.append(movie1)
+movies.append(movie2)
+movies.append(movie3)
+print(movies)
+
+movies=[]
+movies.append(input("Enter 1st movie: "))
+movies.append(input("Enter 1st movie: "))
+movies.append(input("Enter 1st movie: "))
+
+print(movies)
+
+# WAP to check weather the valuse in list are palindrome or not
+
+laptop=[1,2,3,3,2,1]
+copy_laptop= laptop.copy()
+copy_laptop.reverse()
+if copy_laptop == laptop:
+    print("YES")
+else:
+    print("NO")
+
