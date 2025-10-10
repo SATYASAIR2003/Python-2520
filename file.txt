@@ -1,0 +1,4 @@
+3. Hardware Redundancy (in systems)
+Used for backup or fault tolerance — duplication of hardware parts to ensure reliability.
+Example:
+Servers having two power supplies or duplicate disks (RAID) — if one fails, the other takes over.
