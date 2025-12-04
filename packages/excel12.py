@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # df = pd.read_excel("Cleaned_Student_Mental_Health.xlsx")
-df = pd.read_csv("Cleaned_Student_Mental_Health.xlsx.csv")
+df = pd.read_csv("Cleaned_Student_Mental_Health.csv")
 
 # To show first few rows
 print(df.head()) 
@@ -28,16 +28,9 @@ print(df.isnull().sum())
 
 # To check relationships between numeric variables:
 
-# In the below code I got error due to giving all the columns which contains 
-# both string and integer values which cannot be caluculated in python
-# plt.figure(figsize=(8,5))
-# sns.heatmap(df.corr(), annot=True, cmap="coolwarm")
-# plt.title("Correlation Heatmap – Student Mental Health")
-# plt.show()
-
 plt.figure(figsize=(8,5))
 sns.heatmap(df.select_dtypes(include=['number']).corr(), annot=True, cmap="coolwarm")
-plt.title("Correlation Heatmap – Student Mental Health")
+plt.title("Correlation Heatmap Student Mental Health")
 plt.show()
 
 # Sleep vs. Stress Visualization

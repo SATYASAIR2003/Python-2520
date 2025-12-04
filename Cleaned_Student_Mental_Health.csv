@@ -1,0 +1,23 @@
+Student_ID,Name,Age,Gender,Course,Year_of_Study,Study_Hours_Per_Day,Sleep_Hours_Per_Day,Stress_Level,Anxiety_Level,Exercise_Frequency,Screen_Time_Hours,Caffeine_Intake,Exam_Performance_Expectation,Relaxing_Method,Academic_Pressure
+50,Sneha Roy,20,Female,CSE,3rd,6,6,5,8,3,6,4,64,None,Medium
+2,Anusha Dasari,20,Female,Mech,3rd,5,4,2,9,2,8,2,94,None,Medium
+46,Abhinay Rao,23,Female,Civil,1st,4,5,8,5,6,7,4,70,Music,Medium
+44,Tejaswi Goud,22,Female,Civil,3rd,4,5,5,9,5,2,4,83,Talking to friends,Medium
+43,Sravani Varma,22,Female,Mech,4th,6,5,7,9,3,5,4,74,Talking to friends,Low
+40,Harshini ,22,Female,Civil,4th,2,8,7,9,0,4,2,68,Music,High
+38,Harika ,18,Female,Civil,4th,2,4,4,2,6,5,0,73,Talking to friends,Medium
+34,Tejaswi Varma,20,Female,CSE,2nd,5,8,1,6,0,3,1,92,Meditation,High
+32,Pradeep Kumar,18,Female,CSE,3rd,3,8,10,9,2,4,0,83,Exercise,Medium
+31,Lakshmi Goud,18,Female,Civil,1st,5,7,1,2,6,8,3,58,Talking to friends,Low
+11,Anusha Reddy,19,Female,Civil,1st,4,5,4,10,6,4,3,62,Music,Low
+12,Harika Goud,19,Female,Mech,2nd,4,7,10,8,3,8,1,90,Talking to friends,Medium
+30,Vamsi Babu,19,Female,Mech,4th,5,6,8,5,6,4,4,69,Meditation,High
+14,Sindhu ,19,Female,CSE,3rd,6,5,4,4,3,6,3,62,Music,Low
+29,Chaitanya Reddy,18,Female,Civil,4th,4,7,2,2,6,3,1,77,Exercise,High
+16,Harshini Dasari,18,Female,Mech,1st,4,5,8,2,5,5,1,87,Meditation,High
+17,Swathi Chowdary,21,Female,CSE,4th,3,7,1,10,4,2,3,74,Exercise,Low
+28,Mahesh Yadav,18,Female,CSE,1st,7,6,6,7,5,5,1,69,Meditation,Low
+26,Harshini Goud,22,Female,Civil,3rd,4,7,7,1,6,3,2,65,Exercise,High
+25,Bhavani Naidu,18,Female,CSE,2nd,4,7,10,3,2,2,1,63,Talking to friends,Medium
+21,Anusha Varma,22,Female,Mech,1st,5,8,10,10,6,5,3,71,Meditation,Medium
+24,Chaitanya Varma,22,Female,CSE,4th,7,7,3,4,2,8,1,84,Meditation,High
