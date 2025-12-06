@@ -44,9 +44,30 @@ for i in range(len(acd)):
     # acd[i]=int(acd[i])
 print(adc)
 
-def listTraversal(arr):
-    #code here
-    for i in (arr):
-        print(i,end =" ")
+# def listTraversal(arr):
+#     #code here
+#     for i in (arr):
+#         print(i,end =" ")
 
-listTraversal([1,2,3,4])
+# listTraversal([1,2,3,4])
+
+# def decrementList(arr):
+#     #code here
+#     # [val - 1 for val in arr]
+#     for i in arr:
+#         print(i-1,end=" ")
+
+# decrementList([1,2,3])
+
+
+ada=(1,2,3,4,5,6,7,21,4,7,23,554,980)
+a,b,*c,d = ada
+print(a)
+print(b)
+print(*c)
+print(d)
+
+# print("="*20)
+
+sa="SATYA"
+print(tuple(sa))
