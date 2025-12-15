@@ -1,0 +1,51 @@
+Student_ID,Name,Age,Gender,Year_of_Study,Study_Hours_Per_Day,Sleep_Hours_Per_Day,Stress_Level,Anxiety_Level,Exercise_Frequency,Screen_Time_Hours,Caffeine_Intake,Exam_Performance_Expectation,Coping_Method,Academic_Pressure,Course
+1,Kiran Naidu,22,Male,2nd,5,7,5,5,0,3,1,82,Talking to friends,Low,Mech
+2,Anusha Dasari,20,Female,3rd,5,4,2,9,2,8,2,94,None,Medium,Mech
+3,Kiran Chowdary,18,Male,4th,2,6,4,7,6,2,4,94,Music,Low,Civil
+4,Sandeep Naidu,18,Male,2nd,2,7,1,2,1,5,3,82,Music,High,CSE
+5,Surya Rao,20,Male,1st,6,5,5,10,0,7,2,85,Meditation,Low,CSE
+6,Sai Teja Babu,23,Male,1st,5,8,4,4,2,2,4,74,None,Low,CSE
+7,Pradeep Babu,21,Male,3rd,3,8,4,10,4,4,0,65,None,Low,CSE
+8,Chaitanya Rao,21,Male,1st,3,5,3,9,5,5,2,56,Meditation,Medium,Civil
+9,Rohith Yadav,18,Male,1st,7,7,6,1,0,3,0,95,Talking to friends,Low,Mech
+10,Surya Reddy,22,Male,3rd,3,6,1,5,4,8,1,85,Talking to friends,High,Civil
+11,Anusha Reddy,19,Female,1st,4,5,4,10,6,4,3,62,Music,Low,Civil
+12,Harika Goud,19,Female,2nd,4,7,10,8,3,8,1,90,Talking to friends,Medium,Mech
+13,Kalyan Varma,20,Male,4th,3,6,5,6,1,6,2,85,Music,Low,CSE
+14,Sindhu ,19,Female,3rd,6,5,4,4,3,6,3,62,Music,Low,CSE
+15,Pradeep Dasari,20,Male,4th,5,7,10,3,5,3,3,91,None,High,CSE
+16,Harshini Dasari,18,Female,1st,4,5,8,2,5,5,1,87,Meditation,High,Mech
+17,Swathi Chowdary,21,Female,4th,3,7,1,10,4,2,3,74,Exercise,Low,CSE
+18,Rohith Babu,23,Male,2nd,2,8,9,4,6,4,2,83,Talking to friends,Medium,Mech
+19,Sai Teja Reddy,22,Male,3rd,5,7,2,5,0,5,1,67,Talking to friends,Low,Civil
+20,Sai Teja Kumar,18,Male,1st,4,4,3,10,2,2,3,91,None,High,Civil
+21,Anusha Varma,22,Female,1st,5,8,10,10,6,5,3,71,Meditation,Medium,Mech
+22,Mahesh Goud,20,Male,4th,7,7,7,8,0,3,4,66,Talking to friends,High,Civil
+23,Ravi Goud,20,Male,4th,5,6,7,7,3,6,0,94,Music,Low,Civil
+24,Chaitanya Varma,22,Female,4th,7,7,3,4,2,8,1,84,Meditation,High,CSE
+25,Bhavani Naidu,18,Female,2nd,4,7,10,3,2,2,1,63,Talking to friends,Medium,CSE
+26,Harshini Goud,22,Female,3rd,4,7,7,1,6,3,2,65,Exercise,High,Civil
+27,Anusha Reddy,18,Male,3rd,7,8,3,5,2,4,0,71,Meditation,Low,CSE
+28,Mahesh Yadav,18,Female,1st,7,6,6,7,5,5,1,69,Meditation,Low,CSE
+29,Chaitanya Reddy,18,Female,4th,4,7,2,2,6,3,1,77,Exercise,High,Civil
+30,Vamsi Babu,19,Female,4th,5,6,8,5,6,4,4,69,Meditation,High,Mech
+31,Lakshmi Goud,18,Female,1st,5,7,1,2,6,8,3,58,Talking to friends,Low,Civil
+32,Pradeep Kumar,18,Female,3rd,3,8,10,9,2,4,0,83,Exercise,Medium,CSE
+33,Anusha Naidu,18,Male,3rd,2,4,10,2,0,8,0,71,Meditation,High,CSE
+34,Tejaswi Varma,20,Female,2nd,5,8,1,6,0,3,1,92,Meditation,High,CSE
+35,Sindhu Yadav,22,Male,3rd,6,8,8,6,4,7,3,61,Talking to friends,High,Civil
+36,Ravi Chowdary,18,Male,3rd,5,5,5,5,4,4,0,85,Exercise,High,Mech
+37,Sai Teja Varma,21,Male,2nd,6,5,5,8,5,6,0,62,Talking to friends,High,CSE
+38,Harika ,18,Female,4th,2,4,4,2,6,5,0,73,Talking to friends,Medium,Civil
+39,Ajay Reddy,18,Male,2nd,3,4,1,8,6,5,0,69,Meditation,Medium,CSE
+40,Harshini ,22,Female,4th,2,8,7,9,0,4,2,68,Music,High,Civil
+41,Naveen Reddy,21,Male,4th,2,6,4,6,2,4,1,80,Talking to friends,Low,CSE
+42,Sai Teja Naidu,21,Male,4th,5,6,9,3,6,4,2,88,Exercise,High,CSE
+43,Sravani Varma,22,Female,4th,6,5,7,9,3,5,4,74,Talking to friends,Low,Mech
+44,Tejaswi Goud,22,Female,3rd,4,5,5,9,5,2,4,83,Talking to friends,Medium,Civil
+45,Rohith Dasari,19,Male,4th,6,7,10,5,3,3,4,84,Exercise,High,Mech
+46,Abhinay Rao,23,Female,1st,4,5,8,5,6,7,4,70,Music,Medium,Civil
+47,Chaitanya Yadav,23,Male,1st,2,6,2,6,4,8,4,89,Exercise,High,Mech
+48,Rohith Reddy,19,Male,4th,4,7,8,10,5,2,4,87,Exercise,Medium,CSE
+49,Bhavani Reddy,19,Male,3rd,5,6,1,3,0,7,0,73,Meditation,High,CSE
+50,Sneha Roy,20,Female,3rd,6,6,5,8,3,6,4,64,None,Medium,CSE
