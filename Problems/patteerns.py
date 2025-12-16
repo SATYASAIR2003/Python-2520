@@ -76,14 +76,39 @@
 #         print(" "*(2*n-2*i-3),chr(65+i),end="")
 #     print()
 
-n=int(input("Enter n: "))
-for i in range(n):
-    print(" "*(n-i-1),end="")
-    for j in range(i+1):
-        print(str(j+1),end="")
-    print()
-for i in range(n-1):
-    print(" "*(i+1),end="")
-    for j in range(n-i-1):
-        print(j+1,end="")
+# n=int(input("Enter n: "))
+# for i in range(n):
+#     print(" "*(n-i-1),end="")
+#     for j in range(i+1):
+#         print(str(j+1),end="")
+#     print()
+# for i in range(n-1):
+#     print(" "*(i+1),end="")
+#     for j in range(n-i-1):
+#         print(j+1,end="")
+#     print()
+
+# for i in range(7):
+#     for j in range(5):
+#         print("* ",end="")
+#     print()
+
+# for i in range(7):
+#     for j in range(5):
+#         if j == 0 or j == 4:
+#             print("* ",end="")
+#         else:
+#             print("  ",end="")
+#     print()
+
+for i in range(7):
+    for j in range(5):
+        if (i in {0,3,6}) & (j in {1,2,3}):
+            print("* ",end="")
+        elif (i in {1,2,4,5})&(j in {4}):
+            print("* ",end="")
+        elif j==0:
+            print("* ",end="")
+        else:
+            print("  ",end="")
     print()
