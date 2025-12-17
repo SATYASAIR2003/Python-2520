@@ -101,7 +101,7 @@ for i in range(7):
             print("  ",end="")
     print()
 
-Print B
+# Print B
 for i in range(7):
     for j in range(5):
         if (i in {0,3,6}) & (j in {1,2,3}):
@@ -114,7 +114,7 @@ for i in range(7):
             print("  ",end="")
     print()
 
-print number in reverse order
+# print number in reverse order
 n=int(input("Enter a number: "))
 for i in range(7):
     for j in range(5):
