@@ -39,5 +39,33 @@
 # for i, val in enumerate(arr):
 #     print(i, val)
 
-a={}
-print(type(a))
+# a={}
+# print(type(a))
+
+# s = "I am learning Python programming language"
+# print(s.split())
+
+# n=int(input("Enter n: "))
+# for i in range(n):
+#     for j in range((i+1)):
+#         print(chr(65+j),end="")
+#     for j in range((n-j-1)*2):
+#         print(" ",end="")
+#     for j in range(i,-1,-1):
+#         print(chr(65+j),end="")
+#     print()
+# for i in range(n-1):
+#     for j in range(n-i-1):
+#         print(chr(65+j).lower(),end="")
+#     for j in range((i+1)*2):
+#         print(" ",end="")
+#     for j in range(n-i-2,-1,-1):
+#         print(chr(65+j).lower(),end="")
+#     print()
+
+
+n=int(input("Enter n: "))
+for i in range(n):
+    for j in range(n-i-1):
+        print(str(n-i+j),end="")
+    print()
